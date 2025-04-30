@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Catalog</title>
+</head>
+<body>
+    <div class="bg"></div>
+    <header>
+        <a href="index.html"><img src="img\Disk.png" alt="" class="logo" style="width: 105px; height: 33px;"></a>
+        <div class="search-field">
+            <input type="text">
+            <button><img src="img\search.png" style="width: 49px; height: 49px;"></button>
+        </div>
+        <div class="buttons">
+            <a href="cataloge.html"><button><img src="img\cataloge.png" style="width: 64px; height: 64px;"></button></a>
+            <a href="basket.html"><button><img src="img\basket.png" style="width: 64px; height: 64px;"></button></a>
+            <a href="reg-auth.php"><button><img src="img\account.png" style="width: 50px; height: 50px; margin-top: 3px;"></button></a>            
+        </div>
+    </header>
+    <div class="description-card">
+        <img src="img\M.I.A. - Kala.jpeg" alt="" class="album description-img">
+        <hr class="card-line">
+        <h1>M.I.A.</h1>
+        <h3>KALA</h3>
+        <p>Год выхода - 2007
+            Жанр - Pop / Electronic / Hip Hop / Reggae
+            Страна - UK</p>
+        <p>Bamboo Banga
+            Birdflu
+            Boyz
+            Jimmy
+            Hussel
+            Mango Pickle Down River
+            20 Dollar
+            World Town
+            The Turn
+            XR2 Paper Planes
+            Come Around</p>
+        <div class="button-and-const">
+            <button class="buy-button"><img src="img\basket.png" alt="" class="basket-img"></button>
+            <h1>5 000 р.</h1>
+        </div>
+    </div>
+    
+    <div class="catalog">
+        <button class="show-filters-but" onclick="showFilters()"><img src="img\arrow.png" alt=""></button>
+        <div class="catalog-head">
+            <h1>Фильтры</h1>
+            <hr>
+        </div>
+        <div class="catalog-content">
+            <div class="filters">
+                <button class="close-filters-but" onclick="closeFilters()" style="display: none;"><img src="img\arrow.png" alt=""></button>
+                <div class="filter-category">
+                    <h2>Формат</h2>
+                    <hr>
+                    <div class="input">
+                        <input type="checkbox" name="vynil" id="">
+                        <label for="vynil">винил</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="disk" id="">
+                        <label for="disk">компакт-диск</label>
+                    </div>
+                </div>
+                <div class="filter-category">
+                    <h2>Жанр</h2>
+                    <hr>
+                    <div class="input">
+                        <input type="checkbox" name="hiphop" id="">
+                        <label for="hiphop">hip-hop</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="pop" id="">
+                        <label for="pop">pop</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="rock" id="">
+                        <label for="rock">rock</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="rus" id="">
+                        <label for="rus">rus</label>
+                    </div>  
+                </div>
+                <div class="filter-category">
+                    <h2>Исполнитель</h2>
+                    <hr>
+                    <div class="input">
+                        <input type="checkbox" name="sonlux" id="">
+                        <label for="sonlux">Son Lux</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="mia" id="">
+                        <label for="mia">M.I.A.</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="Jungle" id="">
+                        <label for="Jungle">Jungle</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="blood" id="">
+                        <label for="blood">Blood Orange</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="travis" id="">
+                        <label for="travis">Travis Scott</label>
+                    </div>
+                    <div class="input">
+                        <input type="checkbox" name="health" id="">
+                        <label for="health">Health</label>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-cards">
+                <div class="card">
+                    <img src="img\M.I.A. - Kala.jpeg" alt="" class="album" style="width: 218px;">
+                    <hr class="card-line">
+                    <h1>M.I.A.</h1>
+                    <h3>KALA</h3>
+                    <div class="button-and-const">
+                        <button class="buy-button"><img src="img\basket.png" alt="" class="basket-img"></button>
+                        <h1>3 000 р.</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\Son Lux - Lanterns.png" alt="" class="album" style="width: 218px;">
+                    <hr class="card-line">
+                    <h1>Son Lux</h1>
+                    <h3>LANTERNS</h3>
+                    <div class="button-and-const">
+                        <button class="buy-button"><img src="img\basket.png" alt="" class="basket-img"></button>
+                        <h1>6 500 р.</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\Bullet For My Valentine - The Poison.png" alt="" class="album">
+                    <hr class="card-line">
+                    <h1>Bullet For My Valentine</h1>
+                    <h3>POISON</h3>
+                    <div class="button-and-const">
+                        <button class="buy-button"><img src="img\basket.png" alt="" class="basket-img"></button>
+                        <h1>4 750 р.</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\Travis Scott - Utopia.jpeg" alt="" class="album">
+                    <hr class="card-line">
+                    <h1>Travis Scott</h1>
+                    <h3>UTOPIA</h3>
+                    <div class="button-and-const">
+                        <button class="buy-button"><img src="img\basket.png" alt="" class="basket-img"></button>
+                        <h1>3 000 р.</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\Health-Disco3.png" alt="" class="album">
+                    <hr class="card-line">
+                    <h1>Health</h1>
+                    <h3>DISCO3</h3>
+                    <div class="button-and-const">
+                        <button class="buy-button"><img src="img\basket.png" alt="" class="basket-img"></button>
+                        <h1>5 000 р.</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\Jungle - Jungle.jpeg" alt="" class="album" style="width: 218px;">
+                    <hr class="card-line">
+                    <h1>Jungle</h1>
+                    <h3>JUNGLE</h3>
+                    <div class="button-and-const">
+                        <button class="buy-button"><img src="img\basket.png" alt="" class="basket-img"></button>
+                        <h1>3 000 р.</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\The Neighbourhood - Wiped Out!.jpeg" alt="" class="album" style="width: 218px;">
+                    <hr class="card-line">
+                    <h1>The Neighbourhood</h1>
+                    <h3>WIPED OUT!</h3>
+                    <div class="button-and-const">
+                        <button class="buy-button"><img src="img\basket.png" alt="" class="basket-img"></button>
+                        <h1>3 000 р.</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\Blood Orange - Negro Swan.jpeg" alt="" class="album" style="width: 218px;">
+                    <hr class="card-line">
+                    <h1>Blood Orange</h1>
+                    <h3>NEGRO SWAN</h3>
+                    <div class="button-and-const">
+                        <button class="buy-button"><img src="img\basket.png" alt="" class="basket-img"></button>
+                        <h1>3 000 р.</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img\American Football.png" alt="" class="album">
+                    <hr class="card-line">
+                    <h1>American</h1>
+                    <h3>FOOTBALL</h3>
+                    <div class="button-and-const">
+                        <button class="buy-button"><img src="img\basket.png" alt="" class="basket-img"></button>
+                        <h1>3 000 р.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="index.html"><img src="img\Disk.png" alt="" class="logo" style="width: 105px; height: 33px;"></a>
+        <nav>
+            <li><a href="">Новинки</a></li>
+            <li><a href="cataloge.html">Каталог</a></li>
+            <li style="margin-right: 35px;"><a href="">Акции</a></li>
+            <li><a href="basket.html">Корзина</a></li>
+        </nav>
+        <div class="contacts">
+            <h2 style="color: white; margin-bottom: 15px;">+7 (999) 999-99-99</h2>
+            <div class="messengers">
+                <img src="img\vk.png" alt="" style="height: 50px; width: 63px;">
+                <img src="img\tg.png" alt="" style="height: 50px; width: 50px;">
+                <img src="img\yt.png" alt="" style="height: 60px; width: 60px;">
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
