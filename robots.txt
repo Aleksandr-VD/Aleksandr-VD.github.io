@@ -2,6 +2,8 @@
 
 User-agent: *
 Allow: /
+Allow: /script.js
+Allow: /main.css
 Allow: /index.html
 Allow: /cataloge.html
 Allow: /basket.html
