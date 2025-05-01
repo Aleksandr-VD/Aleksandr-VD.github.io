@@ -104,7 +104,7 @@ input:focus {
     bottom: 61px;
     left: 81px;
 }
-@media (max-width: 768px) and (min-width: 321px){
+@media (max-width: 768px) and (min-width: 426px){
     .block-with-bg img {
         height: 518px;
         width: 100%;
@@ -113,7 +113,7 @@ input:focus {
         max-width: 683px;
     }
 }
-@media (max-width: 320px) and (min-width: 0px){
+@media (max-width: 425px) and (min-width: 0px){
     .block-with-bg img {
         height: 518px;
         width: 100%;
@@ -206,7 +206,7 @@ input:focus {
 .buy-button:hover {
     background-color: #74553F;
 }
-@media (max-width: 768px) and (min-width: 321px){
+@media (max-width: 768px) and (min-width: 426px){
     .products-cards {
         width: 750px;
         margin-left: 10px;
@@ -218,7 +218,7 @@ input:focus {
         height: 1726px;
     }
 }
-@media (max-width: 320px) and (min-width: 0px){
+@media (max-width: 425px) and (min-width: 0px){
     .products-cards {
         width: 320px;
     }
@@ -274,7 +274,7 @@ a {
 a:hover{
     text-decoration: underline;
 }
-@media (max-width: 768px) and (min-width: 321px){
+@media (max-width: 768px) and (min-width: 426px){
     footer nav{
         width: 186px;
         height: 260px;
@@ -284,7 +284,7 @@ a:hover{
         height: 327px;
     }
 }
-@media (max-width: 320px) and (min-width: 0px){
+@media (max-width: 425px) and (min-width: 0px){
     footer {
         height: 525px;
         flex-direction: column;
@@ -346,10 +346,7 @@ a:hover{
     border-style: none;
     display: none;
 }
-@media (max-width: 768px) and (min-width: 321px){
-    
-}
-@media (max-width: 320px) and (min-width: 0px){
+@media (max-width: 425px) and (min-width: 0px){
     .filters{
         display: none;
         position: fixed;
@@ -390,7 +387,7 @@ a:hover{
 .description-img{
     width: 300px;
 }
-@media (max-width: 768px) and (min-width: 321px){
+@media (max-width: 768px) and (min-width: 426px){
     .description-card{
         left: 10%;
         height: 500px;
@@ -399,7 +396,7 @@ a:hover{
         width: 200px;
     }
 }
-@media (max-width: 320px) and (min-width: 0px){
+@media (max-width: 425px) and (min-width: 0px){
     .description-card{
         left: 0%;
         height: 500px;
@@ -444,10 +441,10 @@ a:hover{
 .make-order:hover{
     background-color: #74553F;
 }
-@media (max-width: 768px) and (min-width: 321px){
+@media (max-width: 768px) and (min-width: 426px){
     
 }
-@media (max-width: 320px) and (min-width: 0px){
+@media (max-width: 425px) and (min-width: 0px){
     .bascket-content{
         flex-direction: column;
     }
